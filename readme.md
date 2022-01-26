@@ -22,6 +22,6 @@ leetcode sucks.
 no autoconf or makefiles here
 
 ```
-g++ <file name>.cpp -I../include
+g++ --std=c++17 <file name>.cpp -I../include
 ./a.out
 ```

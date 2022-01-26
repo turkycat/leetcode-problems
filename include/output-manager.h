@@ -20,6 +20,15 @@ public:
         std::cout << " ]" << std::endl;
     }
 
+    void print_vector(const std::vector<bool>& vec)
+    {
+        std::cout << "[ ";
+        for (const auto val : vec) {
+            printf("%s ", val ? "true" : "false");
+        }
+        std::cout << " ]" << std::endl;
+    }
+
     void print_matrix(const std::vector<std::vector<int>>& mat)
     {
         for (const auto& vec : mat) {
